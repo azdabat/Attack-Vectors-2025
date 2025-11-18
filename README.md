@@ -2,13 +2,12 @@
 # Modern Real-World Attack Chains, Bypass Techniques & Adversary Tradecraft
 # (Threat Intelligence + SOC L3 + Red-Team Hybrid Perspective)
 
-Version: 3.0
 Date: January 2025
-Author: Offensive Research Division
+Author: Ala Dabat
 Classification: Offensive Research / Red-Team Reference
 
 ------------------------------------------------------------------------------------
-SECTION 0 — PURPOSE
+SECTION 1 — PURPOSE
 
 This document provides a consolidated 2023–2025 view of real-world adversary behaviour
 as observed across threat intelligence, honeypot networks, incident response cases,
@@ -26,7 +25,7 @@ The content focuses on:
 No harmful or replicable exploit code is provided.
 
 ------------------------------------------------------------------------------------
-SECTION 1 — 2023 → 2025 THREAT LANDSCAPE EVOLUTION
+SECTION 2 — 2023 → 2025 THREAT LANDSCAPE EVOLUTION
 
 THREE-YEAR EVOLUTION SUMMARY
 
@@ -51,7 +50,7 @@ THREE-YEAR EVOLUTION SUMMARY
 - Attackers routinely blend cloud, identity, and supply-chain techniques into single chains.
 
 ------------------------------------------------------------------------------------
-SECTION 2 — THREAT INTELLIGENCE MODELLING (2025)
+SECTION 3 — THREAT INTELLIGENCE MODELLING (2025)
 
 Modern threat-actor modelling incorporates:
 
@@ -75,7 +74,7 @@ Modern threat-actor modelling incorporates:
      or autonomous bot-driven exploitation.
 
 ------------------------------------------------------------------------------------
-SECTION 3 — IDENTITY & CLOUD ATTACKS (2023–2025 EVOLUTION)
+SECTION 4 — IDENTITY & CLOUD ATTACKS (2023–2025 EVOLUTION)
 
 Identity became the primary attack vector, especially through:
 
@@ -99,7 +98,7 @@ Identity became the primary attack vector, especially through:
    - This pivot gives direct control over storage, secrets managers, or CI/CD systems.
 
 ------------------------------------------------------------------------------------
-SECTION 4 — SUPPLY CHAIN ATTACKS & CI/CD COMPROMISES
+SECTION 5 — SUPPLY CHAIN ATTACKS & CI/CD COMPROMISES
 
 Supply-chain attacks evolved dramatically 2023–2025:
 
@@ -117,7 +116,7 @@ Supply-chain attacks evolved dramatically 2023–2025:
 - Cloud-based build runners compromised through identity misconfiguration rather than code.
 
 ------------------------------------------------------------------------------------
-SECTION 5 — ZERO-DAY & N-DAY EXPLOITATION TRENDS
+SECTION 6 — ZERO-DAY & N-DAY EXPLOITATION TRENDS
 
 Zero-day exploitation 2023–2025:
 
@@ -139,7 +138,7 @@ PRIORITY TARGETS
 - Agent frameworks such as EDR connectors or remote management tools.
 
 ------------------------------------------------------------------------------------
-SECTION 6 — MEMORY-RESIDENT TRADECRAFT (HIGH-LEVEL ONLY)
+SECTION 7 — MEMORY-RESIDENT TRADECRAFT (HIGH-LEVEL ONLY)
 
 As EDR improved traditional process-injection detection, attackers evolved toward:
 
@@ -151,7 +150,7 @@ As EDR improved traditional process-injection detection, attackers evolved towar
 No implementation or payload logic is included.
 
 ------------------------------------------------------------------------------------
-SECTION 7 — BROWSER → SANDBOX → OS INTRUSION CHAINS
+SECTION 8 — BROWSER → SANDBOX → OS INTRUSION CHAINS
 
 Modern real-world intrusions (high-level):
 
@@ -168,7 +167,7 @@ Modern real-world intrusions (high-level):
    - Compromised workload identities used to pivot into management plane.
 
 ------------------------------------------------------------------------------------
-SECTION 8 — CROSS-PLATFORM PERSISTENCE TRENDS
+SECTION 9 — CROSS-PLATFORM PERSISTENCE TRENDS
 
 macOS:
 - Abuse of TCC (Transparency, Consent, Control) databases for stealth access.
@@ -202,7 +201,7 @@ The trend from 2023–2025 shows:
 - Using container runtime binaries to escape or pivot.
 
 ------------------------------------------------------------------------------------
-SECTION 10 — REALISTIC ATTACK CHAINS (ANALYSIS-LEVEL)
+SECTION 11 — REALISTIC ATTACK CHAINS (ANALYSIS-LEVEL)
 
 CHAIN 1: AI → Identity Compromise → Cloud Admin Escalation → CI/CD Poisoning
 - AI clones executive style → phishing → stolen browser tokens.
@@ -224,7 +223,7 @@ CHAIN 4: Firmware/Hypervisor Compromise → Invisible Persistence
 - Hypervisor-level stealth enabling complete monitoring evasion.
 
 ------------------------------------------------------------------------------------
-SECTION 11 — CONCLUSION
+SECTION 12 — CONCLUSION
 
 Between 2023 and 2025, adversary operations became:
 - Identity-first rather than endpoint-first.
@@ -237,4 +236,3 @@ This whitepaper captures modern offensive logic at a safe, conceptual, professio
 for research and portfolio demonstration.
 
 ------------------------------------------------------------------------------------
-END OF FILE
